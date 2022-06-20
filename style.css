@@ -36,11 +36,10 @@
     img {
         width: 100%;
         height: 100%;
-       border-radius: 15px;
-       border-top-left-radius: 0px;
-       border-bottom-left-radius: 0px;
-       filter: hsla(277, 64%, 61%,50%);
-    
+        border-radius: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      
     }
     h1 {
         font-family: 'Inter', sans-serif;
@@ -101,4 +100,13 @@
     #box3{
         grid-column-start:3;
         padding-left: 100px;
+    }
+    color{
+        width: 100%;
+        height: 100%;
+       border-radius: 15px;
+       border-top-left-radius: 0px;
+       border-bottom-left-radius: 0px;
+       order: 2;
+       background-color: hsla(277, 64%, 61%, 0.6);
     }
